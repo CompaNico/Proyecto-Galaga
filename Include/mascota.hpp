@@ -24,7 +24,7 @@ this->nombre = nombre;
 
 void DecirNombrre ()
 {
-    std::cout << "Mi nombre es "
+    std::cout << "Mi nombre es "<<endl;
 }
 
 };

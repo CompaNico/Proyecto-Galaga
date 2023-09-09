@@ -1,5 +1,7 @@
 #include <iostream>
 #include <mascota.hpp>
+
+
 int main(int argc, char const *argv[])
 {
 std::cout<<"Juego de mascota"<<std::endl;
@@ -12,6 +14,8 @@ m3.Establecernombre("Ramon");
 m1.DecirNombre();
 m2.DecirNombre();
 m3.DecirNombre();
+
+
 
 return 0;
 }

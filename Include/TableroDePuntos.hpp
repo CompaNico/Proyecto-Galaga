@@ -9,9 +9,3 @@ public:
     TableroDePuntos(/* args */) {}
     ~TableroDePuntos() {}
 };
-
-int main(int argc, char const *argv[])
-{
-    /* code */
-    return 0;
-}

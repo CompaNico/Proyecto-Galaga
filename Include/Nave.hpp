@@ -9,9 +9,3 @@ public:
     Nave(/* args */) {}
     ~Nave() {}
 };
-
-int main(int argc, char const *argv[])
-{
-    /* code */
-    return 0;
-}

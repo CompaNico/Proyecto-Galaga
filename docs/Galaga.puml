@@ -1,0 +1,50 @@
+@startuml Galaga
+
+class Juego
+class Nave
+class Score 
+class Vidas
+class Proyectil
+class Nave 
+class Fondo
+class NaveRoja 
+class NaveVerde 
+class NaveArarilla
+class NaveMorada 
+class NaveAzul
+class OndaDeCaptura 
+class Bandera
+class Limite
+class Fighter
+class Letrero 
+class TableroDePuntos
+class Credito
+class Puntos 
+class Menu 
+
+Juego *-- Nave
+Juego *-- Score
+Juego *-- Fondo 
+Juego *-- Limite 
+Juego *-- Menu 
+Juego *-- Credito 
+Juego *-- Letrero 
+Juego *-- Bandera
+Juego *-- Puntos 
+
+Menu *-- TableroDePuntos
+
+TableroDePuntos o-- Puntos
+
+Nave --|> Fighter
+Nave --|> NaveMorada
+NaveMorada--|> NaveAzul
+Nave --|> NaveRoja
+Nave --|> NaveVerde 
+Nave --|> NaveArarilla
+Nave o-- Proyectil
+
+NaveVerde o--OndaDeCaptura
+Fighter o-- Vidas
+
+@enduml

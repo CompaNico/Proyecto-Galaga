@@ -1,9 +1,0 @@
-@startuml Diagrama
-
-#pragma once 
-class Mascota
-
-
-
-
-@ enduml

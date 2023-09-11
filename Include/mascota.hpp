@@ -4,7 +4,7 @@
 class mascota
 {
 private:
-    int vida;
+    int vida;|
     std::string nombre;
 
 public:

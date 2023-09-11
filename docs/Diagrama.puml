@@ -1,7 +1,7 @@
 @startuml Diagrama
 
 #pragma once 
-class Mascota 
+class Mascota
 
 
 

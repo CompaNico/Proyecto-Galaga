@@ -1,8 +1,8 @@
-#include Bandera
-#include Credito
-#include Fighter
-#include Fondo
-#include Juego
+#include "Bandera"
+#include <Credito>
+#include <Fighter>
+#include <Fondo>
+#include <Juego>
 #include Letrero
 #include Limite
 #include Menu
@@ -42,6 +42,8 @@ int main(int argc, char const *argv[])
     Score.SCR
     TableroDePuntos.TAB
     Vidas.LIFE
+
+   std::cout<<"Este es Galaga"<<std::endl;
 
     return 0;
 }

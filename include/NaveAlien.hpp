@@ -8,30 +8,27 @@
 class NaveAlien : public Dibujo, public Actualizable, public HitBox
 {
 private:
-
-
 public:
     NaveAlien() : Dibujo("NaveAlien"),
-        HitBox(
-             this->posicion.LeerX(),
-             this->posicion.LeerY(),12,4)
+                  HitBox(
+                      this->posicion.LeerX(),
+                      this->posicion.LeerY(), 12, 4)
     {
         this->posicion = Vector();
     }
 
     NaveAlien(int x, int y) : Dibujo("NaveAlien"),
-                HitBox(this->posicion.LeerX(),
-                this->posicion.LeerY(),12,4)
+                              HitBox(this->posicion.LeerX(),
+                                     this->posicion.LeerY(), 12, 4)
     {
         this->posicion.DezplazarX(x);
         this->posicion.DezplazarY(y);
-
     }
 
     void Actualizar()
     {
-        this->x=this->posicion.LeerX();
-        this->y=this->posicion.LeerY();
+        this->x = this->posicion.LeerX();
+        this->y = this->posicion.LeerY();
     }
     void Avanzar()
     {
@@ -41,7 +38,8 @@ public:
     {
         this->posicion.CambiarDireccionX();
     }
-    Vector LeerPosicion(){
+    Vector LeerPosicion()
+    {
         return this->posicion;
     }
 

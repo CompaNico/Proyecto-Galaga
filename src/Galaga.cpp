@@ -23,10 +23,9 @@ private:
 int main(int argc, char const *argv[])
 {
 
-    FighterT *F1 = new FighterT (5, 40);
-    NaveAlien *AL1 = new NaveAlien(50,20);
-    NaveAlien *AL2 = new NaveAlien (50, 20);
-
+    FighterT *F1 = new FighterT(5, 40);
+    NaveAlien *AL1 = new NaveAlien(50, 20);
+    NaveAlien *AL2 = new NaveAlien(50, 20);
 
     Ventana *ventana = new Ventana();
 

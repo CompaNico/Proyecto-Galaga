@@ -9,8 +9,6 @@ protected:
     unsigned int dy;
 
 public:
-   
-
     HitBox(unsigned int x, unsigned int y, unsigned int dx, unsigned int dy)
     {
         this->x = x;
@@ -24,7 +22,6 @@ public:
     // control + alt+ shiht hacer punteros virtulaes
     // alt raton punteros virtuales
 
-
     // bool DetectarColision(HitBox* hitbox) // calculos para hitbox
     // {
     //     int der1 = this->x + this->dx;
@@ -37,9 +34,7 @@ public:
     //     return true;
     //     if (izq1<der2)
     //     return true;
-        
+
     //     return false;
     // }
-
-    
 };

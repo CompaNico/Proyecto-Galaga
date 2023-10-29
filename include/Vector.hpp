@@ -1,6 +1,5 @@
 #pragma once
 
-
 class Vector
 {
 private:
@@ -33,9 +32,9 @@ public:
     {
         this->direccion_y *= -1;
     }
-    void DezplazarX(unsigned int x)//recibr valir entero 
+    void DezplazarX(unsigned int x) // recibr valir entero
     {
-        this->x += x* this->direccion_x;
+        this->x += x * this->direccion_x;
     }
     void DezplazarY(unsigned int y)
     {
